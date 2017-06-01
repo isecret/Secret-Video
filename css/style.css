@@ -1,0 +1,51 @@
+*{padding:0;margin:0;}
+
+body {
+    color: #555;
+    font-size: 16px;
+    font-family: "Microsoft Jhenghei","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+    line-height: 1.8;
+}
+
+::selection {
+    background: #262a30;
+    color: #fff;
+}
+
+a{
+	color: #3ac19f;
+}
+
+.main{
+	display: block;
+	width: 700px;
+	margin: 180px auto;
+	text-align: center;
+}
+
+.logo{
+	margin:20px;
+	text-align: center;
+	font-size: 30px;
+	color: #3ac19f;
+}
+
+.mobile-768-block{
+	display: none;
+}
+
+footer{
+	margin-top: 15px;
+}
+
+@media screen and (max-width: 768px){
+	.main{
+		width:96%;
+	}
+	.mobile-768-none{
+		display: none;
+	}
+	.mobile-768-block{
+		display: block;
+	}
+}
